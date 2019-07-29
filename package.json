@@ -1,0 +1,24 @@
+{
+  "name": "cookbook-frontend",
+  "version": "1.0.0",
+  "description": "Cookbook react frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "author": "Alex L. Tesevich",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0"
+  },
+  "dependencies": {
+    "@babel/register": "^7.5.5",
+    "express": "^4.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
