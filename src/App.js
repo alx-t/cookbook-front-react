@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import CatalogPage from '~/src/components/CatalogPage'
+import RecipesPage from '~/src/components/RecipesPage';
 
 export default class App extends Component {
   constructor(props) {
@@ -9,7 +9,9 @@ export default class App extends Component {
 
   render() {
     return (
-      <CatalogPage />
+      <div>
+        <RecipesPage />
+      </div>
     );
   }
 }
